@@ -12,204 +12,137 @@
 
     <script src="https://kit.fontawesome.com/864894570d.js" crossorigin="anonymous"></script>
 
+    
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
 
     <title> Cinema </title>
 
   </head>
     
-  <body style="background-color: black;">
+  <body>
     
-    <div id="navbar" style="background-color: black;">
-      <div class="container">    
-        <header class="mb-3" style="background-color: black; margin-left: -250px; margin-right: -250px;">
-          <nav class="navbar navbar-expand-sm navbar-dark">
-            <div class="mr-5">
-              <a href="index.html"> LOGO </a>
-              <!-- <i class="fa-brands fa-rebel fa-4x" style="color: gold; margin-left: -60px;"></i> -->
-            </div>
-  
-            <!-- Menu Hamburguer -->
-            <button class="navbar-toggler" data-toggle="collapse" 
-            data-target="#navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <!-- nav -->
-            <div class="collapse navbar-collapse" id="navigation">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                  <a href="signin.html" class="nav-link">Fazer login</a>
-                </li>
-                <li class="nav-item">
-                  <a href="signup.html" class="btn ml-4" style="background-color: #b11226; color: white;">Cadastre-se </a>
-                </li>
+
+    <div class="container ">
+
+        <nav class="navbar navbar-expand-md navbar-black bg-black m-3">
+          <a class="navbar-brand" href="#"> LOGO </a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+              <span class="navbar-toggler-icon" style="color: grey;"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav mr-auto col-6">
+                  <li class="nav-item align-center">
+                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#"> TODO </a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#"> TODO </a>
+                  </li>
               </ul>
-            </div>
-          </nav>
 
-          <nav class="m-auto navbar navbar-expand-sm navbar-dark" style="background-color: rgba(177,18,38, 0.65); border-radius: 30px;">
-            
+              <ul class="navbar-nav">
+                  <li class="nav-item">
+                      <a class="nav-link" href="#"> Login </a>
+                  </li>
+                  <li class="nav-item ml-4">
+                      <a class="nav-link" href="#" style="background-color: rgba(177,18,38, 0.65); border-radius: 30px; color: white; text-align: center;"> Cadastre-se </a>
+                  </li>
+              </ul>
+          </div>
+        </nav>
 
-            <ul class="navbar-nav">
-              <li class="nav-item active ml-5 mr-5 pl-3 pr-3">
-                <a class="nav-link" href="#"> Filmes </a>
-              </li>
-
-              <li class="nav-item mr-5 pl-3 pr-3">
-                <a class="nav-link" href="#"> Cinemas </a>
-              </li>
-
-              <li class="nav-item mr-5 pl-3 pr-3">
-                <a class="nav-link" href="#"> Categorias </a>
-              </li>
-
-              <li class="nav-item mr-5 pl-3 pr-3">
-                <a class="nav-link" href="#"> Localização </a>
-              </li>
-
-              <li class="nav-item mr-5 pl-3 pr-3">
-                <a class="nav-link" href="#"> Futuro </a>
-              </li>
-            </ul>
-
-            <input class="form-control mr-sm-2" style="border-radius: 50px; width:450px; margin-left: 300px;" type="text" placeholder="Buscar">
-            <button class="btn" type="submit" style="border-radius: 50px; background-color: gray; color: white;">Buscar</button>
-            
-          </nav>
-        </header>
-      </div>
-    </div>
-    
-    <div id="main-content">
-      <div class="container">
-
-        <div class="row m-auto">
-            <div class="m-auto col-sm-12 ml-5">
-              
-              <h1 class="display-6 mt-3 ml-4" style="color: white;"> Em alta </h1>   
-
-              <div class="card col-sm-3 mr-5 mb-3 ml-4 float-left" style="text-align: center; background-color: rgba(0, 0, 0, 0); border: none;">
-    
-                <div class="card-body mt-3" style="background-color: transparent; border: none;">
-                  <img src="../img/cartaz1.jpg" class="thumbnail" style="border-radius: 10px;">
-                </div> 
-                <div class="card-footer ">
-                  <a href="#" class="btn btn-light" style="background-color: brown; text-align: left; color: white; ">Assistir</a>
-                </div>   
-              </div>
-
-              <div class="card col-sm-3 mr-5 mb-3 ml-4 float-left" style="text-align: center; background-color: rgba(0, 0, 0, 0); border: none;">
-    
-                <div class="card-body mt-3" style="background-color: transparent;">
-                  <img src="../img/sherlock.jpg" class="thumbnail" style="border-radius: 10px;">
-                </div> 
-                <div class="card-footer ">
-                  <a href="#" class="btn btn-light" style="background-color: brown; text-align: left; color: white;">Assistir</a>
-                </div>   
-              </div>
-
-              <div class="card col-sm-3 mr-5 mb-3 ml-4 float-left" style="text-align: center; background-color: rgba(0, 0, 0, 0); border: none;">
-    
-                <div class="card-body mt-3" style="background-color: transparent;">
-                  <img src="../img/TheTrumanShow.jpg" style="border-radius: 10px;">
-                </div> 
-                <div class="card-footer ">
-                  <a href="#" class="btn btn-light" style="background-color: brown; text-align: left; color: white;">Assistir</a>
-                </div>   
-              </div>
-
-              
-
-              
-        </div>
-
-        </div>
-        
-
-
-
-      <br>
-    </div>
-
-      
-    </div>
-    
-    <div id="second-content">
-      <br> <br>
-      <div class="container">
-        <h1 class="display-6 mt-3 ml-4" style="color: white;"> Próximas sessões </h1>   
         <br>
 
-        <div class="row m-auto">
-          <div class="col-sm-3 m-auto">
-            <div class="card float-left" style="text-align: center; background-color: rgba(75, 75, 75, 0.3); border: none;">
-              
-              <div class="card-header mt-3">
-                <img src="../img/a origem.jpg" alt="Origem">
-              </div> 
-              <div class="card-body " style="text-align: left;">
-                <h4 class="card-title" style="color: white;"> A Origem </h4> 
-                <h6 class="card-title" style="color: grey;"> 00h - 02h16 </h6> 
+        <div id="main-content">
+          <div class="row">
+            <div class="col-12 col-sm-12 col-md-10 col-lg-8 col-xl-6">
+              <div class="card m-5" style="opacity: 0.8;">
+                
+                <div class="card-header m-auto">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-light p-2"> <img src="../img/icons/video-camera.png" class="icon"> <br> <span class="lead"> Gerencie sessões </span> </button>
+                    <button type="button" class="btn btn-light p-2"> <img src="../img/icons/pop-corn.png" class="icon"> <br> <span class="lead"> Busque filmes </span> </button>
+                  </div>
+
+                </div>
+    
+                <div class="card-body p-5">
+    
+                  <h1 class="font-weight-bold"> Cadastre suas sessões e atenda clientes </h1>
+    
+                  <br> 
+    
+                  <h5> Gerencie filmes para os usuários mais próximos de você.  </h5> 
+                  
+                  <br> 
+    
+                  
+                  <a href="signup.html" class="btn btn-dark p-3" style="background-color:black;"> Cadastre-se para fornecer serviços </a>
+    
+                </div>
+    
               </div>
-        
             </div>
           </div>
+        </div>        
 
-          <div class="col-sm-3 m-auto">
-            <div class="card float-left" style="text-align: center; background-color: rgba(75, 75, 75, 0.3); border: none;">
-              
-              <div class="card-header mt-3">
-                <img src="../img/a origem.jpg" alt="Origem">
-              </div> 
-              <div class="card-body " style="text-align: left;">
-                <h4 class="card-title" style="color: white;"> A Origem </h4> 
-                <h6 class="card-title" style="color: grey;"> 00h - 02h16 </h6> 
-              </div>
-        
-            </div>
+
+        <div id="demo" class="carousel slide" data-ride="carousel">
+
+          <!-- Indicators -->
+          <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+          </ul>
+
+          <!-- The slideshow -->
+          <div class="carousel-inner">
+
+            <div class="carousel-item center active">
+                <a href="#"> <img class="ml-7 mt-5 poster" src="../img/posters/cartaz1.jpg" alt=""> </a>
+                <a href="#"> <img class="ml-5 mt-5 poster" src="../img/posters/sherlock.jpg" alt=""> </a>
+                <a href="#"> <img class="ml-5 mt-5 poster" src="../img/posters/TheTrumanShow.jpg" alt=""> </a>
+            </div> 
+
+            <div class="carousel-item center">
+                <a href="#"> <img class="ml-7 mt-5 poster" src="../img/posters/cartaz1.jpg" alt=""> </a>
+                <a href="#"> <img class="ml-5 mt-5 poster" src="../img/posters/sherlock.jpg" alt=""> </a>
+                <a href="#"> <img class="ml-5 mt-5 poster" src="../img/posters/TheTrumanShow.jpg" alt=""> </a>
+            </div> 
+
+            <div class="carousel-item center">
+                <a href="#"> <img class="ml-7 mt-5 poster" src="../img/posters/cartaz1.jpg" alt=""> </a>
+                <a href="#"> <img class="ml-5 mt-5 poster" src="../img/posters/sherlock.jpg" alt=""> </a>
+                <a href="#"> <img class="ml-5 mt-5 poster" src="../img/posters/TheTrumanShow.jpg" alt=""> </a>
+            </div> 
+
           </div>
 
-          <div class="col-sm-3 m-auto">
-            <div class="card float-left mt-2" style="text-align: center; background-color: rgba(75, 75, 75, 0.3); border: none; ">
-              
-              <div class="card-header mt-3">
-                <img src="../img/a origem.jpg" alt="Origem">
-              </div> 
-              <div class="card-body " style="text-align: left;">
-                <h4 class="card-title" style="color: white;"> A Origem </h4> 
-                <h6 class="card-title" style="color: grey;"> 00h - 02h16 </h6> 
-              </div>
-        
-            </div>
-          </div>
+          <!-- Left and right controls -->
+          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
 
-          <div class="col-sm-3 m-auto">
-            <div class="card float-left mt-2" style="text-align: center; background-color: rgba(75, 75, 75, 0.3); border: none; ">
-              
-              <div class="card-header mt-3">
-                <img src="../img/a origem.jpg" alt="Origem">
-              </div> 
-              <div class="card-body " style="text-align: left;">
-                <h4 class="card-title" style="color: white;"> A Origem </h4> 
-                <h6 class="card-title" style="color: grey;"> 00h - 02h16 </h6> 
-              </div>
-        
-            </div>
-          </div>
+          <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
 
-          
-
-          
         </div>
-      </div>
 
-      <br> <br> <br> <br> 
-    </div>
+        <br>  
 
-    <footer style="background-color: black;">
-      <!-- sem footer ainda    -->
-    </footer>
+        <footer>           
+          © 2023 André, Ângelo e Gabriel para Desenvolvimento de Sistemas Web I, na UFRN. <br>
+
+          <!-- <a href="#"> <i style='font-size:24px' class='fab'>&#xf09b;</i> Confira nosso rebositório no GitHub </a> -->
+
+        </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -219,50 +152,6 @@
   </body>
 </html>
 
-
-<!-- <div class="row m-auto">
-  <div class="m-auto col-sm-12 ml-5">
-    
-    <h1 class="display-5 mt-3 ml-4" style="color: white;"> Em alta </h1>   
-
-    <div class="card col-sm-3 mr-5 mb-3 ml-4 float-left" style="text-align: center; background-color: rgba(0, 0, 0, 0);">
-    
-      <div class="card-header mt-3" style="background-color: transparent;">
-        <img src="../../img/cartaz1.jpg" class="thumbnail" style="border-radius: 10px;">
-      </div> 
-      <div class="card-body ">
-        <h4 class="card-title lead" style="color: white;"> Os Três Mosqueteiros: D’Artagnan </h4>   
-        <a href="#" class="btn btn-light" style="background-color: brown; text-align: left; color: white;">Ver</a>
-      </div>   
-    </div>
-      
-      <!-- <div class="m-auto"> -->
-    <!-- <div class="card col-sm-3 mr-5 mb-3 float-left" style="text-align: center; background-color: rgba(0, 0, 0, 0);">
-
-      <div class="card-header mt-3" style="background-color: transparent;">
-        <img src="../../img/cartaz1.jpg" class="thumbnail" style="border-radius: 10px;">
-      </div> 
-      <div class="card-body ">
-        <h4 class="card-title lead" style="color: white;"> Os Três Mosqueteiros: D’Artagnan </h4>   
-        <a href="#" class="btn btn-light" style="background-color: brown; text-align: left; color: white;">Ver</a>
-      </div>   
-    </div>
-
-    <div class="card col-sm-3 mr-5 mb-3 float-left" style="text-align: center; background-color: rgba(0, 0, 0, 0);">
-
-      <div class="card-header mt-3" style="background-color: transparent;">
-        <img src="../../img/cartaz1.jpg" class="thumbnail" style="border-radius: 10px;">
-      </div> 
-      <div class="card-body ">
-        <h4 class="card-title lead" style="color: white;"> Os Três Mosqueteiros: D’Artagnan </h4>   
-        <a href="#" class="btn btn-light" style="background-color: brown; text-align: left; color: white;">Ver</a>
-      </div>   
-    </div>
-
-    
-      
 </div>
-
-</div> -->
 
 
