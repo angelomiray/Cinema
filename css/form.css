@@ -1,0 +1,44 @@
+
+#main-content {
+    background-image: url('../img/posters/bg.jpg');
+}
+
+input {
+    color: white !important;
+}
+
+.form-control.border-bottom-only {
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    border-bottom: 3px solid #ccc;
+    box-shadow: none;
+}
+
+.form-control.border-bottom-only:focus {
+    border-color: gold;
+    box-shadow: none;
+}
+
+.transition label {
+    position: absolute;
+    top: 0  ;
+    left: 15px;
+    font-size: 16px;
+    color: grey;
+    transition: all 0.3s ease-in-out;
+}
+
+.transition input:focus + label,
+.transition input:valid + label {
+    top: -20px;
+    left: 15px;
+    font-size: 14px;
+    color: white;
+    background-color: none;    
+}
+
+form button {
+    border-radius: 50px !important;
+    background-color: linear-gradient(to bottom, #888888, #000000) !important;
+}
