@@ -1,0 +1,41 @@
+#main-content {
+	background-color: rgba(18, 18, 18, 0.9) !important;
+	background-image: none;
+}
+
+.card {
+	border: none;
+}
+
+#main-content .result-item .card-body {
+	border-color: black;
+	background-color: rgba(24, 24, 24, 0.9) !important;
+}
+
+.card-body h5 {
+	color: white;
+}
+
+.card-body p {
+	color: rgba(255, 255, 255, 0.3);
+}
+
+.card-body img {
+	width: 90px;
+    height: 213px;
+}
+
+.card-body a, .card-body a:hover {
+	background-color: red !important;
+	border: none;
+	border-color: white !important;
+}
+
+.card:hover {
+	background-color: brown;
+}
+
+.form-group {
+	opacity: 0.5;
+	color: white;
+}

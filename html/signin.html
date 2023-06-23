@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
 
-    <title> Cadastre-se </title>
+    <title> Entrar </title>
 
   </head>
     
@@ -34,56 +34,40 @@
 
       <div id="main-content" class="p-3">
           <div class="mx-auto mt-1 font-weight-bold" style="color: white; text-align: center; margin-bottom: 60px;">
-            <h5 style="color: grey;"> Passo 1 de 3 </h5>
-            <h2> Cadastre-se </h2> 
-            <h6 style="color: grey;"> Crie uma conta para gerenciar sessões e consumir filmes </h6>  
+            <h2> Entrar </h2> 
+            <h6 style="color: grey;"> Encontre sessões de filmes próximos de você </h6>  
           </div>
           
 
           <form class="mt-3 mb-5">	
-              
               <div class="row">
-                  <div class="col">
-                      <div class="form-group transition">
-                        <input type="text" class="form-control border-bottom-only" id="first_name" placeholder="" required>
-                        <label for="first_name"> Nome </label>     
-                      </div>
-                  </div>
-
-                  <div class="col">
-                      <div class="form-group transition">
-                        <input type="text" class="form-control border-bottom-only text-white" id="last_name" placeholder="" required>
-                        <label for="last_name"> Sobrenome </label>     
-                      </div>
-                  </div>                                  
+                <div class="col form-group transition">
+                  <input type="text" class="form-control border-bottom-only" id="email" placeholder="" required>
+                  <label for="email"> Endereço de e-mail </label>     
+                </div>
               </div>
+               
 
               <br>
 
-               <div class="col form-group transition">
-                <input type="text" class="form-control border-bottom-only" id="email" placeholder="" required>
-                <label for="email"> Endereço de e-mail </label>     
+              <div class="row">
+                <div class="col form-group transition text-white">
+                  <input type="password" class="form-control border-bottom-only" id="password" placeholder="" required>
+                  <label for="password"> Senha </label>     
+                </div>
               </div>
+                  
 
               <br>
 
-              <div class="col form-group transition text-white">
-                <input type="password" class="form-control border-bottom-only" id="password" placeholder="" required>
-                <label for="password"> Senha </label>     
+              <div class="row">
+                <div class="col-md-6 d-flex justify-content-left mt-4">
+                  <a href="index.html" class="btn btn-dark w-25 p-3 form-btn" style="text-align: center;"> Entrar </a>
+
+                  <a href="#" class="nav-link offset-1" style="text-align: center; line-height: 40px;"> Esqueceu a senha? </a>                
+                </div>
               </div>
-
-              <br>
-
-              <div class="col form-group transition">
-                <input type="text" class="form-control border-bottom-only" id="address" placeholder="" required>
-                <label for="address"> Endereço </label>     
-              </div>
-
-              <br>
-
-              <div class="d-flex justify-content-center align-items-center mt-4">
-                <a href="signup2.html" class="btn btn-dark p-3 form-btn" style="text-align: center;"> Continuar </a>
-              </div>
+              
 
         </form>
 
@@ -107,3 +91,4 @@
 </div>
 
 
+  

@@ -42,3 +42,7 @@ form button {
     border-radius: 50px !important;
     background-color: linear-gradient(to bottom, #888888, #000000) !important;
 }
+
+.form-btn, .form-btn:hover {
+    background-color: black;
+}
