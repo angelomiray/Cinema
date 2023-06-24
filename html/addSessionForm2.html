@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/form.css">
 
     <script src="https://kit.fontawesome.com/864894570d.js" crossorigin="anonymous"></script>
 
@@ -66,82 +67,95 @@
 
         <br>
 
-        <div id="main-content">
-          <div class="row">
-            <div class="col-12 col-sm-12 col-md-10 col-lg-8 col-xl-6">
-              <div class="card m-5" style="opacity: 0.8;">
-                
-                <div class="card-header m-auto">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-light p-2"> <img src="../img/icons/video-camera.png" class="icon"> <br> <span class="lead"> Gerencie sessões </span> </button>
-                    <button type="button" class="btn btn-light p-2"> <img src="../img/icons/pop-corn.png" class="icon"> <br> <span class="lead"> Busque filmes </span> </button>
-                  </div>
+        <div id="main-content" class="p-3">
+          <div class="mx-auto mt-1 font-weight-bold" style="color: white; text-align: center; margin-bottom: 60px;">
+            <h5 style="color: grey;"> Passo 2 de 3 </h5>
+            <h2> Informações do Filme </h2> 
+            <h6 style="color: grey;"> Suas sessões ficarão disponíveis para os consumidores mais próximos </h6>  
+          </div>
+          
 
+          <form class="mt-3 mb-5">  
+              <div class="row">
+                <div class="col form-group transition">
+                  <input type="text" class="form-control border-bottom-only" id="title" placeholder="" required>
+                  <label for="title"> Título </label>     
                 </div>
-    
-                <div class="card-body p-5">
-    
-                  <h1 class="font-weight-bold"> Cadastre suas sessões e atenda clientes </h1>
-    
-                  <br> 
-    
-                  <h5> Gerencie filmes para os usuários mais próximos de você.  </h5> 
-                  
-                  <br> 
-    
-                  
-                  <a href="signup.html" class="btn btn-dark p-3" style="background-color: black !important;"> Cadastre-se para fornecer serviços </a>
-    
-                </div>
-    
               </div>
-            </div>
-          </div>
-        </div>        
+               
+
+              <br>
+
+              <div class="row">
+                <div class="col form-group transition text-white">
+                  <input type="text" class="form-control border-bottom-only" id="dubbingLanguage" placeholder="" required>
+                  <label for="dubbingLanguage"> Idioma de Dublagem </label>     
+                </div>
+              </div>
+
+              <br>
+
+              <div class="row">
+                <div class="col form-group transition text-white">
+                  <input type="text" class="form-control border-bottom-only" id="subtitleLanguage" placeholder="" required>
+                  <label for="subtitleLanguage"> Idioma da Legenda </label>     
+                </div>
+              </div>
+                  
+              <br>
+
+              <div class="row">
+                <div class="col form-group transition text-white">
+                  <input type="text" class="form-control border-bottom-only" id="room" placeholder="" required>
+                  <label for="room"> Sala </label>     
+                </div>
+              </div>
+
+              <br>
+
+              <div class="row">
+                <div class="col form-group transition text-white">
+                  <input type="text" class="form-control border-bottom-only" id="sinopse" placeholder="" required>
+                  <label for="sinopse"> Sinopse </label>     
+                </div>
+              </div>  
+
+              <br> 
+
+              <div class="row">
+                <div class="col-4 form-group transition text-white">
+                  <input type="text" class="form-control border-bottom-only" id="director" placeholder="" required>
+                  <label for="director"> Diretor </label>     
+                </div>
+
+                <div class="col-4 form-group transition text-white">
+                  <input type="text" class="form-control border-bottom-only" id="genre" placeholder="" required>
+                  <label for="genre"> Gênero </label>     
+                </div>
+
+                <div class="col-4 form-group transition text-white">
+                  <select class="form-control" id="search-type-selection">
+                    <option> Livre </option>
+                    <option> 10 anos </option>
+                    <option> 12 anos </option>
+                    <option> 14 anos </option>
+                    <option> 16 anos </option>
+                    <option> 18 anos </option>
+                  </select>
+                </div>                
+              </div>  
 
 
-        <div id="demo" class="carousel slide" data-ride="carousel">
+              <br>
 
-          <!-- Indicators -->
-          <ul class="carousel-indicators">
-            <li data-target="#demo" data-slide-to="0" class="active"></li>
-            <li data-target="#demo" data-slide-to="1"></li>
-            <li data-target="#demo" data-slide-to="2"></li>
-          </ul>
+              <div class="d-flex justify-content-center align-items-center mt-4">
+                <a href="addSessionForm3.html" class="btn btn-dark p-3 form-btn" style="text-align: center;"> Continuar </a>
+              </div>
+              
 
-          <!-- The slideshow -->
-          <div class="carousel-inner">
+        </form>
 
-            <div class="carousel-item center active"> 
-                <a id="test" href="#" onmouseover="test()"> <img class="ml-7 mt-5 poster" src="../img/posters/cartaz1.jpg" alt=""> </a>
-                <a href="#"> <img class="ml-5 mt-5 poster" src="../img/posters/sherlock.jpg" alt=""> </a>
-                <a href="#"> <img class="ml-5 mt-5 poster" src="../img/posters/TheTrumanShow.jpg" alt=""> </a>
-            </div> 
-
-            <div class="carousel-item center">
-                <a href="#"> <img class="ml-7 mt-5 poster" src="../img/posters/cartaz1.jpg" alt=""> </a>
-                <a href="#"> <img class="ml-5 mt-5 poster" src="../img/posters/sherlock.jpg" alt=""> </a>
-                <a href="#"> <img class="ml-5 mt-5 poster" src="../img/posters/TheTrumanShow.jpg" alt=""> </a>
-            </div> 
-
-            <div class="carousel-item center">
-                <a href="#"> <img class="ml-7 mt-5 poster" src="../img/posters/cartaz1.jpg" alt=""> </a>
-                <a href="#"> <img class="ml-5 mt-5 poster" src="../img/posters/sherlock.jpg" alt=""> </a>
-                <a href="#"> <img class="ml-5 mt-5 poster" src="../img/posters/TheTrumanShow.jpg" alt=""> </a>
-            </div> 
-
-          </div>
-
-          <!-- Left and right controls -->
-          <a class="carousel-control-prev" href="#demo" data-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-          </a>
-
-          <a class="carousel-control-next" href="#demo" data-slide="next">
-            <span class="carousel-control-next-icon"></span>
-          </a>
-
-        </div>
+      </div>      
 
         <br>  
 
