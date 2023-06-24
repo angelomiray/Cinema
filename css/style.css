@@ -17,6 +17,14 @@ nav {
     background-position: bottom left;
 }
 
+#main-content h2 {
+    text-align: center;
+}
+
+#main-content h5 {
+    margin-bottom: -15px;
+}
+
 a:hover {
     color: gold !important;
 }
@@ -79,4 +87,43 @@ i {
 footer {
     text-align: center;
     color: rgba(255, 255, 255, 0.5);
+}
+
+.dropdown-item {
+    color: white;
+}
+
+.dropdown-item:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.list-group-item {
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.addSessionBtn {
+    border-radius: 30px; 
+    background-color: rgba(177,18,38, 0.65);
+    color: white;
+}
+
+.addSessionBtn:hover {
+    color: gold;
+}
+
+.badge {
+    background-color: brown;
+}
+
+i {
+    color: gold;
+}
+
+h2 {
+    color: white; margin-top: 25px; text-align: justify;
+}
+
+.list-group-item strong {
+    color: grey;
 }

@@ -3,6 +3,10 @@
     background-image: url('../img/posters/bg.jpg');
 }
 
+#cinema-info {
+    background-color: rgba(18, 18, 18, 0.9) !important;
+}
+
 input {
     color: white !important;
 }
@@ -43,6 +47,27 @@ form button {
     background-color: linear-gradient(to bottom, #888888, #000000) !important;
 }
 
+select {
+    color: white !important;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
 .form-btn, .form-btn:hover {
     background-color: black;
+}
+
+#room-representation li {
+    text-align: center;
+    background-color: transparent;
+}
+
+.room-representation .list-group-item {
+    background-color: transparent !important;
+    text-align: center;
+    border: none;
+}
+
+.room-representation .list-group-item button {
+    background-color: green;
+    padding: 10px;
 }
