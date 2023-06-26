@@ -127,3 +127,15 @@ h2 {
 .list-group-item strong {
     color: grey;
 }
+
+.break-after-30 {
+    word-wrap: break-word;
+    word-break: break-all;
+    max-width: 300px; /* ajuste o valor conforme necessário */
+}
+
+a button {
+    color: white;
+    background-color: inherit;
+    border: none;
+}
